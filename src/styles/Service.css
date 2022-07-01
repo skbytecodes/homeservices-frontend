@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title{
+    margin-top: 5%;
+    color: grey;
+    font-size: .95em;
+}
+.s_image{
+    height: 200px;
+    height: 200px;
+}
+
+.my-service > img{
+    border-radius: 5px;
+}
+
+@media screen  and (max-width : 375px){
+    .s_image{
+        height: 100px;
+        height: 100px;
+    }
+}
